@@ -1778,9 +1778,6 @@ body {
     left: 57%;
   }
   /* section2 */
-  .s2_cont_wrap {
-    flex-direction: column;
-  }
   .sec2_deco1 {
     width: 83px;
     left: 33%;
@@ -1840,6 +1837,11 @@ body {
   .sec3_bottom {
     left: -145%;
   }
+  /* section4 */
+  .product-card {
+    margin-top: 23vh;
+  }
+
   /* section5 */
   .square {
     display: none;
