@@ -1894,6 +1894,9 @@ body {
     top: 9vh;
   }
   /* section7 */
+  #section7 {
+    height: 100vh
+  }
   .title {
     font-size: var(--font-size-medium);
   }
