@@ -1658,6 +1658,9 @@ body {
    #section1 {
     background-position: right;
   }
+   .s1_menu {
+    margin-top: 7vh;
+  }
   .s1_menu li {
     width: 300px;
   }
@@ -1764,9 +1767,6 @@ body {
   }
   .menu_logo {
     width: 250px;
-  }
-  .s1_menu {
-    margin-top: 7vh;
   }
   .s1_menu li a {
     font-size: 1.5rem;
