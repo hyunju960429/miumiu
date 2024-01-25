@@ -1655,6 +1655,9 @@ body {
 /* 화면의 너비가 -~960px -- 작은노트북 */
 @media (max-width:960px){
   /* section1 */
+   #section1 {
+    background-position: right;
+  }
   .s1_menu li {
     width: 300px;
   }
@@ -1749,9 +1752,6 @@ body {
 /* 화면의 너비가 -577px~768px -- 태블릿 */
 @media (max-width:768px){
   /* section1 */
-  #section1 {
-    background-position: right;
-  }
   .s1_p_wrap {
     display: none;
   }
