@@ -1726,6 +1726,10 @@ body {
   .swiper-wrapper {
     height: 86%;
   }
+   /* section7 */
+  .s7_imgWrap {
+    top: 91vh;
+  }
   /* section8 */
   .title {
     font-size: var(--font-size-big);
