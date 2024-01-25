@@ -103,12 +103,24 @@ tl.from(s1_menu, {
 });
 
 
-//section1 p태그 애니메이션 //다시 수정하기-마지막에 없어짐
-let s1P = document.querySelectorAll(".s1_p");
+//section1 p태그 애니메이션
+// let s1P = document.querySelectorAll(".s1_p");
 
-s1P.forEach((pele) => {
-  tl.to(pele, { rotationX: -90, ease: "none" });
-});
+// s1P.forEach((pele) => {
+//   tl.to(pele, { rotationX: -90, ease: "none" });
+// });
+
+let s1P_1 = document.querySelector('.s1_p1');
+let s1P_2 = document.querySelector('.s1_p2');
+let s1P_3 = document.querySelector('.s1_p3');
+let s1P_4 = document.querySelector('.s1_p4');
+
+tl.to(s1P_1,{ rotationX: -90, ease: "none" })
+tl.to(s1P_2,{ rotationX: -90, ease: "none" })
+tl.to(s1P_3,{ rotationX: -90, ease: "none" })
+tl.to(s1P_4,{ rotationX: 0, ease: "none" })
+
+
 
 //section1 이미지 마우스효과
 
