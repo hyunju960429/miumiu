@@ -92,6 +92,54 @@ body {
   text-align: center;
 }
 
+
+/* pre-road */
+.progress {
+  position: fixed;
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  z-index: 1005;
+}
+
+.progress .progress-bar {
+  border-top: 1px solid rgba(160, 160, 160);
+  position: absolute;
+  top: 50%;
+  width: 0%;
+}
+
+.progress .progress-text {
+  position: absolute;
+  top: 54%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.progress-complete .progress-bar {
+  border-top-color: rgb(255, 255, 255);
+}
+
+.loadingWrap {
+  position: absolute;
+  display: flex;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.loadingWrap .miutext {
+  font-size: 30px;
+  font-size: 60px;
+}
+
+
+
+
 /* nav */
 #nav {
   position: fixed;
