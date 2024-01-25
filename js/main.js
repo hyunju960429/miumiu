@@ -194,13 +194,17 @@ sec1IMG.forEach((ele, index) => {
   ele.addEventListener("click", function () {
     switch (index) {
       case 0:
-        sec1.style.backgroundImage = "url(img/xsdsadsad5r.jpg)";
+        // sec1.style.backgroundImage = "url(img/xsdsadsad5r.jpg)";
+        sec1.style.backgroundImage = "url(https://github.com/hyunju960429/portfolio_img_video/blob/main/xsdsadsad5r.jpg?raw=true)";
+        
         break;
       case 1:
-        sec1.style.backgroundImage = "url(img/1sss21f.jpg)";
+        // sec1.style.backgroundImage = "url(img/1sss21f.jpg)";
+        sec1.style.backgroundImage = "url(https://github.com/hyunju960429/portfolio_img_video/blob/main/1sss21f.jpg?raw=true)";
         break;
       case 2:
-        sec1.style.backgroundImage = "url(img/cq5dam.web.1440.630.jpg)";
+        //sec1.style.backgroundImage = "url(img/cq5dam.web.1440.630.jpg)";
+        sec1.style.backgroundImage = "url(https://github.com/hyunju960429/portfolio_img_video/blob/main/cq5dam.web.1440.630.jpg?raw=true)";
         break;
       default:
     }
