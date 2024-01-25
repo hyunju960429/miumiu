@@ -1729,6 +1729,9 @@ body {
   .swiper-wrapper {
     height: 86%;
   }
+   .cloth .jaket {
+    top: 10vh;
+  }
    /* section7 */
   .s7_imgWrap {
     top: 84vh;
