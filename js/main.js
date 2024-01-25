@@ -519,7 +519,7 @@ let tl7 = gsap.timeline({
   scrollTrigger:{
     trigger: "#section7",
     start: "top 30%",
-    end: "+=240%",
+    end: "+=195%",
     scrub: true,
     scroller: "#main",
   }
